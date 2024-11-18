@@ -1,0 +1,194 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f8ff; /* Fondo azul claro */
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Sección de inicio */
+.intro {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.intro h2 {
+    color: #1e90ff;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #104e8b;
+}
+
+/* Sección de servicios */
+.services {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.services h2 {
+    color: #1e90ff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #1e90ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover {
+    background-color: #e0f0ff;
+}
+
+/* Sección de contacto */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.contact h2 {
+    color: #1e90ff;
+    margin-bottom: 15px;
+}
+
+.contact p {
+/* Estilos de Presupuesto */
+.quote {
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.quote h2 {
+    color: #1e90ff;
+    margin-bottom: 20px;
+}
+
+.quote p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #1e90ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+form button {
+    padding: 10px;
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #104e8b;
+}
