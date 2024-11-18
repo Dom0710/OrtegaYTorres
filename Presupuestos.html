@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto - Ortega & Torres</title>
+    <link rel="stylesheet" href="../CSS/Presupuestos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ortega & Torres</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="presupuesto.html" target="_blank">Presupuesto</a></li>
+                    <li><a href="sobre-nosotros.html" target="_blank">Más sobre nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="quote">
+        <div class="container">
+            <h2>Solicita un Presupuesto</h2>
+            <p>¿Interesado en alguno de nuestros servicios? Completa el formulario y nos pondremos en contacto contigo para ofrecerte un presupuesto ajustado a tus necesidades.</p>
+            <div class="quote-form">
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="nombre">Nombre:</label></td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="servicio">Servicio de interés:</label></td>
+                            <td>
+                                <select id="servicio" name="servicio">
+                                    <option value="fotovoltaica">Fotovoltaica</option>
+                                    <option value="electricidad">Electricidad</option>
+                                    <option value="telecomunicaciones">Telecomunicaciones</option>
+                                    <option value="aire acondicionado">Aire Acondicionado</option>
+                                    <option value="domotica">Domótica</option>
+                                    <option value="redes informaticas">Redes Informáticas</option>
+                                    <option value="automatizacion">Automatización</option>
+                                    <option value="porteros">Porteros</option>
+                                    <option value="aerotermia">Aerotermia</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="mensaje">Mensaje:</label></td>
+                            <td><textarea id="mensaje" name="mensaje" rows="4" required></textarea></td>
+                        </tr>
+                    </table>
+                    <button type="submit" class="btn-primary">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Ortega & Torres. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
